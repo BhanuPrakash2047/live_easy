@@ -1,0 +1,24 @@
+
+server:
+  port: 8761
+
+spring:
+  application:
+    name: discovery-service
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    wait-time-in-ms-when-sync-empty: 0
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+  metrics:
+    export:
+      prometheus:
+        enabled: true
