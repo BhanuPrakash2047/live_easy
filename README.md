@@ -33,30 +33,6 @@ This project implements a microservices architecture with the following componen
 - Java 11+
 - Maven
 
-### Running the Application
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/BhanuPrakash2047/live_easy.git
-   ```
-
-2. Build the services:
-   ```
-   mvn clean package -DskipTests
-   ```
-
-3. Start all services using Docker Compose:
-   ```
-   docker-compose up -d
-   ```
-
-4. Access the services:
-   - Eureka Dashboard: http://localhost:8761
-   - API Gateway: http://localhost:8080
-   - Prometheus: http://localhost:9090
-   - Grafana: http://localhost:3000 (admin/admin)
-   - Zipkin: http://localhost:9411
-
 ## API Documentation
 
 ### Auth Service
@@ -226,10 +202,3 @@ Authorization: Bearer <token>
 6. **Logging**: Centralized logging for easy debugging and monitoring
 7. **Scalability**: Services can be scaled independently based on load
 
-## Future Enhancements
-
-1. Implementing API rate limiting
-2. Adding circuit breakers for improved resilience
-3. Implementing database sharding for high volume data
-4. Adding more comprehensive metrics and alerts
-5. Implementing a CI/CD pipeline
