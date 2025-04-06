@@ -37,8 +37,7 @@ This project implements a microservices architecture with the following componen
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
-   cd liveasy-backend
+   git clone https://github.com/BhanuPrakash2047/live_easy.git
    ```
 
 2. Build the services:
